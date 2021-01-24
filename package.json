@@ -15,7 +15,7 @@
     "bot"
   ],
   "author": "VHtear",
-  "license": "ISC",
+  "license": "GNU",
   "dependencies": {
     "@adiwajshing/baileys": "^3.4.1"
   },
