@@ -81,7 +81,7 @@ async function SBVHtear() {
 		const sakura = JSON.stringify(messageContent)
 		const Qimage = type === 'extendedTextMessage' && sakura.includes('imageMessage')
 		let txt = (type === 'conversation' && m.message.conversation.startsWith(setkey)) ? m.message.conversation : (type == 'zzzimageMessage') && m.message.imageMessage.caption.startsWith(setkey) ? m.message.imageMessage.caption : (type == 'zzzvideoMessage') && m.message.videoMessage.caption.startsWith(setkey) ? m.message.videoMessage.caption : (type == 'extendedTextMessage') && m.message.extendedTextMessage.text.startsWith(setkey) ? m.message.extendedTextMessage.text : ''
-		if (!m.key.fromMe) {
+		if (m.key.fromMe) {
 			if (txt == "hi") {
 				VHsendMessage(VH, to, "Hi sayang!!!")
 			} else if (txt == "me") {
