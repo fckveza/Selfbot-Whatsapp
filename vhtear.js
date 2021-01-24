@@ -55,9 +55,9 @@ async function SBVHtear() {
 	});
 	VH.on('credentials-updated', () => {
 		const authInfo = VH.base64EncodedAuthInfo()
-		fs.writeFileSync('./token.json', JSON.stringify(authInfo, null, '\t'))
+		fs.writeFileSync('./data.json', JSON.stringify(authInfo, null, '\t'))
 	})
-	fs.existsSync('./token.json') && VH.loadAuthInfo('./token.json')
+	fs.existsSync('./data.json') && VH.loadAuthInfo('./data.json')
 	await VH.connect()
 	console.log('Name : ' + VH.user.name + ' (' + VH.user.jid + ')')
 	var os = new os_func();
