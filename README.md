@@ -47,7 +47,7 @@ You can run with (talk bot)<br>
 ```sh
 $ node vhtear.js
 ```
-<br>or<br>
+or<br>
 ```sh
 $ npm start
 ```
@@ -58,7 +58,7 @@ WhatsApp Web API - This script is just for example *VHtear API's* request
 
 - Sekali lagi script ini hanya untuk Contoh request [VHtear-API's](https://vhtear.com)
 
-- Jika ingin menambahkan Fiture dari Whatsapp kunjungi [Source Code *Baileys*](https://github.com/adiwajshing/Baileys)
+- Jika ingin menambahkan Fiture lain dari Whatsapp/Basic bisa kunjungi dari liberary yang kita pakai > [Source Code *Baileys*](https://github.com/adiwajshing/Baileys)
 
 ## Keyword
 
