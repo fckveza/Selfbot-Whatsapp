@@ -28,7 +28,7 @@ APIKEY [VHtear](https://wa.me/6281238552767)
 First of all, you need to install [Git](https://git-scm.com/download/win) & [NodeJS](https://nodejs.org/). Then open your git bash, and follow this:<br>
 ```sh
 $ git clone https://github.com/fckveza/Selfbot-Whatsapp.git
-$ cd Selfbot Whatsapp
+$ cd Selfbot-Whatsapp
 $ npm i
 ```
 
@@ -40,7 +40,7 @@ $ apt-get install git-all
 $ apt-get install nodejs-current
 $ apt-get install ffmpeg
 $ git clone https://github.com/fckveza/Selfbot-Whatsapp.git
-$ cd Selfbot Whatsapp
+$ cd Selfbot-Whatsapp
 $ npm i
 ```
 
