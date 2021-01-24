@@ -20,6 +20,8 @@ PAGES
 
 This repo require a [NodeJS](https://nodejs.org/) >= 11.15.0.
 
+APIKEY [VHtear](https://wa.me/6281238552767)
+
 ## Windows Installation
 
 First of all, you need to install [Git](https://git-scm.com/download/win) & [NodeJS](https://nodejs.org/). Then open your git bash, and follow this:<br>
