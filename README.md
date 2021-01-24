@@ -45,8 +45,7 @@ $ npm i
 ```
 
 ## How to run
-
-You can run with (talk bot)<br>
+<br>
 ```sh
 $ node vhtear.js
 ```
