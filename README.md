@@ -16,18 +16,6 @@ PAGES
     - [Termux](#linux-installation)
 - [How to run](#how-to-run)
 
-
-## What is WA Selfbot ?
-
-WhatsApp Web API - This script is just for example *VHtear API's* request 
-
-## Keyword
-
-Type `help` to see the keyword
-
-<br>
-If you have an problem, you can contact [veza](https://wa.me/6281238552767) or [elfox](https://wa.me/6281319865418).
-
 ## Requirement
 
 This repo require a [NodeJS](https://nodejs.org/) >= 11.15.0.
@@ -36,7 +24,7 @@ This repo require a [NodeJS](https://nodejs.org/) >= 11.15.0.
 
 First of all, you need to install [Git](https://git-scm.com/download/win) & [NodeJS](https://nodejs.org/). Then open your git bash, and follow this:<br>
 ```sh
-$ git clone https://github.com/GoogleX133/LINE-FreshBot.git
+$ git clone https://github.com/fckveza/selfbot-wa.git
 $ cd LINE-FreshBot
 $ npm i
 ```
@@ -59,7 +47,21 @@ You can run with (talk bot)<br>
 ```sh
 $ node vhtear.js
 ```
-<br>or (square bot)<br>
+<br>or<br>
 ```sh
 $ npm start
 ```
+
+## What is WA Selfbot ?
+
+WhatsApp Web API - This script is just for example *VHtear API's* request 
+
+- Sekali lagi script ini hanya untuk Contoh request [VHtear-API's](https://vhtear.com)
+
+- Jika ingin menambahkan Fiture dari Whatsapp kunjungi [Source Code *Baileys*](https://github.com/adiwajshing/Baileys)
+
+## Keyword
+
+Type `help` to see the keyword
+<br>
+If you have an problem, you can contact [Veza](https://wa.me/6281238552767) or [Elfox](https://wa.me/6281319865418)
