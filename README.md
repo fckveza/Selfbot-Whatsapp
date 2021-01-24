@@ -12,6 +12,7 @@ PAGES
     - [Source Code *Baileys*](https://github.com/adiwajshing/Baileys)
 - [Requirement](#requirement)
 - [Installation](#)
+    - [Windows](#windows-installation)
     - [Linux](#linux-installation)
     - [Termux](#linux-installation)
 - [How to run](#how-to-run)
