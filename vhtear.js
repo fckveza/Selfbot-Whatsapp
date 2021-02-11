@@ -60,13 +60,19 @@ async function SBVHtear() {
 	fs.existsSync('./data.json') && VH.loadAuthInfo('./data.json')
 	await VH.connect()
 	console.log('Name : ' + VH.user.name + ' (' + VH.user.jid + ')')
-	var os = new os_func();
-	os.execCommand("rm -f ./media/*.mp3");
-	os.execCommand("rm -f ./media/*.mp4");
-	os.execCommand("rm -f ./media/*.jpeg");
-	os.execCommand("rm -f ./media/*.png");
-	os.execCommand("rm -f ./media/*.webp");
-	os.execCommand("sync; echo 3 > /proc/sys/vm/drop_caches");
+	if (process.platform === 'win32' || process.platform === 'win64') {
+		return
+	} else if (process.platform === 'linux') {
+		var os = new os_func();
+		os.execCommand("rm -f ./media/*.mp3");
+		os.execCommand("rm -f ./media/*.mp4");
+		os.execCommand("rm -f ./media/*.jpeg");
+		os.execCommand("rm -f ./media/*.png");
+		os.execCommand("rm -f ./media/*.webp");
+		os.execCommand("sync; echo 3 > /proc/sys/vm/drop_caches");
+	} else if (process.platform === 'darwin') {
+		return
+	}
 	VH.on('chat-update', async(chat) => {
 		if (!chat.hasNewMessage) return
 		m = JSON.parse(JSON.stringify(chat)).messages[0] // pull the new message from the update
