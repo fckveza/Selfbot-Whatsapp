@@ -88,6 +88,7 @@ async function SBVHtear() {
 		const Qimage = type === 'extendedTextMessage' && sakura.includes('imageMessage')
 		let celenk = (type === 'conversation' && m.message.conversation.startsWith(setkey)) ? m.message.conversation : (type == 'zzzimageMessage') && m.message.imageMessage.caption.startsWith(setkey) ? m.message.imageMessage.caption : (type == 'zzzvideoMessage') && m.message.videoMessage.caption.startsWith(setkey) ? m.message.videoMessage.caption : (type == 'extendedTextMessage') && m.message.extendedTextMessage.text.startsWith(setkey) ? m.message.extendedTextMessage.text : ''
 		let txt = celenk.toLowerCase()
+                //Jika ingin public if (!m.key.fromMe) {
                 if (m.key.fromMe) {
 			if (txt == "hi") {
 				VHsendMessage(VH, to, "Hi sayang!!!")
