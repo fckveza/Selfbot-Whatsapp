@@ -53,12 +53,10 @@ async function SBVHtear() {
 	VH.on('qr', qr => {
 		console.log('PLEASE SCAN the QR CODE')
 	});
-	VH.on('credentials-updated', () => {
-		const authInfo = VH.base64EncodedAuthInfo()
-		fs.writeFileSync('./data.json', JSON.stringify(authInfo, null, '\t'))
-	})
 	fs.existsSync('./data.json') && VH.loadAuthInfo('./data.json')
 	await VH.connect()
+	const authInfo = VH.base64EncodedAuthInfo()
+	fs.writeFileSync('./data.json', JSON.stringify(authInfo, null, '\t'))  
 	console.log('Name : ' + VH.user.name + ' (' + VH.user.jid + ')')
 	if (process.platform === 'win32' || process.platform === 'win64') {
 		return
