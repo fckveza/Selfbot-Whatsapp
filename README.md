@@ -66,4 +66,4 @@ WhatsApp Web API - This script is just for example *VHtear API's* request
 
 Type `help` to see the keyword
 <br>
-If you have an problem, you can contact [Veza](https://wa.me/6281238552767) or [Elfox](https://wa.me/6281319865418)
+If you have an problem, you can contact [Veza](https://wa.me/6281238552767)
