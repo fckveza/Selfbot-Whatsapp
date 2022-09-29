@@ -4,7 +4,6 @@
   },
   "dependencies": {
     "@adiwajshing/baileys": "^4.4.0",
-    "node-fetch": "^3.2.10",
     "npm": "^8.19.2",
     "pino": "^7.0.5",
     "qrcode-terminal": "^0.12.0",
