@@ -1,5 +1,5 @@
 # ![VHtear](https://vhtear.com/static/assets/img/brand/favicon.ico) Selfbot Whatsapp
-[![NPM](https://img.shields.io/badge/npm-%3E=%208.15.0-blue.svg)](https://nodejs.org/) [![Node](https://img.shields.io/badge/node-%3E=%2016.17.1-brightgreen.svg)](https://nodejs.org/) [![AUR](https://img.shields.io/aur/license/yaourt.svg)](https://github.com/fckveza/Selfbot-Whatsapp/blob/master/LICENSE) [![source](https://img.shields.io/badge/Baileys-%2016.17.1-brightgreen.svg)](https://github.com/adiwajshing/Baileys) [![Chat me](https://img.shields.io/badge/chat-me%20whatsapp-1bacbc.svg)](https://wa.me/6281238552767) <br><br>
+[![NPM](https://img.shields.io/badge/npm-%3E=%208.15.0-blue.svg)](https://nodejs.org/) [![Node](https://img.shields.io/badge/node-%3E=%2016.17.1-brightgreen.svg)](https://nodejs.org/) [![AUR](https://img.shields.io/aur/license/yaourt.svg)](https://github.com/fckveza/Selfbot-Whatsapp/blob/master/LICENSE) [![source](https://img.shields.io/badge/Baileys-%204.4.0-brightgreen.svg)](https://github.com/adiwajshing/Baileys) [![Chat me](https://img.shields.io/badge/chat-me%20whatsapp-1bacbc.svg)](https://wa.me/6281238552767) <br><br>
 VHtear API's Example *beta*
 
 ----
