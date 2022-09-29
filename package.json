@@ -1,34 +1,13 @@
 {
-  "name": "Selfbot-WA",
-  "version": "0.0.3",
-  "description": "example-beta",
-  "main": "vhtear.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "test": "echo",
     "start": "node vhtear.js"
   },
-  "keywords": [
-    "whatsapp",
-    "bot"
-  ],
-  "author": "VHtear",
-  "license": "GPL",
   "dependencies": {
-    "@adiwajshing/baileys": "^3.5.1",
-    "qrcode-terminal": "^0.11.0",
-    "node-fetch": "2.6.7",
+    "@adiwajshing/baileys": "^4.4.0",
+    "node-fetch": "^3.2.10",
+    "npm": "^8.19.2",
+    "pino": "^7.0.5",
+    "qrcode-terminal": "^0.12.0",
     "request": "^2.88.2"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adiwajshing/Baileys.git"
-  },
-  "bugs": {
-    "url": "https://github.com/adiwajshing/Baileys/issues"
-  },
-  "homepage": "https://github.com/adiwajshing/Baileys#readme"
+  }
 }
