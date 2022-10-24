@@ -85,7 +85,7 @@ const VHtearConnect = () => {
             const pushname = fckV.pushName || 'FCKVEZA'
             const isMe = botNumber.includes(senderNumber)
             const isowner = owner.includes(senderNumber) || isMe
-            if (!fckV.key.fromMe || !isowner) {
+            if (!isowner) {
                 return
             }
             if (txt == "me") {
